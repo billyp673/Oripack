@@ -3,17 +3,48 @@ import PySimpleGUI as sg
 #sets modlist
 modlist = [
 #--aesthetic mods--
+#blockus
 "https://media.forgecdn.net/files/3273/758/blockus-2.1.1%2B1.16.5.jar",
+#bedspreads
+"https://media.forgecdn.net/files/3120/448/bedspreads-fabric-1.3.1-1.16.4.jar",
+#dark paintings (it's just more paintings lmao)
+"https://media.forgecdn.net/files/3358/159/DarkPaintings-Fabric-1.16.5-3.0.2.jar",
 
 #--optifine like mods--
 #lithium
 "https://media.forgecdn.net/files/3215/441/lithium-fabric-mc1.16.5-0.6.4.jar",
-#sodium
-"https://media.forgecdn.net/files/3067/101/sodium-fabric-mc1.16.3-0.1.0.jar",
 #phosphor
 "https://media.forgecdn.net/files/3294/303/phosphor-fabric-mc1.16.3-0.7.2%2Bbuild.12.jar",
 #logical zoom
 "https://media.forgecdn.net/files/3175/437/logical_zoom-0.0.8.jar",
+#dynamicfps
+"https://media.forgecdn.net/files/3302/730/dynamic-fps-2.0.2.jar",
+#krypton
+"https://media.forgecdn.net/files/3200/819/krypton-0.1.2.jar",
+#dynamic lighting
+"https://media.forgecdn.net/files/3172/563/lambdynamiclights-fabric-1.3.4%2B1.16.jar",
+#lazydfu
+"https://media.forgecdn.net/files/3209/972/lazydfu-0.1.2.jar",
+
+#--biome/structure mods--
+#better end (if you're reading this, i used configs and datapacks to remove infusions and alloying, i just like the pretty biomes)
+"https://media.forgecdn.net/files/3360/847/better-end-0.9.8.5-pre.jar",
+#dungeons mod
+"https://media.forgecdn.net/files/3304/468/DungeonsModLite-1.16.5-1.0.5.jar",
+#mo structures
+"https://media.forgecdn.net/files/3355/499/mostructures-1.2.0-1.16.5.jar",
+#repurposed structures
+"https://media.forgecdn.net/files/3346/616/repurposed_structures-1.16.5-1.11.5-fabric.jar",
+#traverse (just a couple more biomes lmao)
+"https://media.forgecdn.net/files/3209/771/traverse-3.3.2.jar",
+
+#--mob mods--
+#bosses of mass destruction (not as chaotic as it sounds)
+"https://media.forgecdn.net/files/3340/790/BOMD-1.1.2-1.16.5.jar",
+#earth 2 java
+"https://media.forgecdn.net/files/3310/364/Earth2Java-1.7.1%2B1.16.4.jar",
+#gentle fawn (they had a passive aggressive message at the bottom of their curseforge page, and i just had to have it lmao)
+"https://media.forgecdn.net/files/3225/163/GentleFawn-1.1.4-MC1.16.5-fabric.jar",
 
 #--origins mods--
 #origins
@@ -40,8 +71,20 @@ modlist = [
 "https://media.forgecdn.net/files/3174/110/fabric-api-0.29.4%2B1.16.jar",
 #pehkui
 "https://media.forgecdn.net/files/3274/223/Pehkui-2.0.0%2B21w14a.jar",
-#data loader
-"https://media.forgecdn.net/files/2989/927/data-loader-2.1.0%2Bmc1.16.1.jar"
+#data loader (core to the modpack i guess?)
+"https://media.forgecdn.net/files/2989/927/data-loader-2.1.0%2Bmc1.16.1.jar",
+#DCWA (removes an annoying message caused by better end)
+"https://media.forgecdn.net/files/3346/861/DisableCustomWorldsAdvice-1.3.jar",
+#bc lib
+"https://media.forgecdn.net/files/3360/134/bclib-0.1.43.jar",
+#cardinal components
+"https://media.forgecdn.net/files/3312/678/Cardinal-Components-API-2.8.3.jar",
+#cloth config
+"https://media.forgecdn.net/files/3311/351/cloth-config-4.11.26-fabric.jar",
+#kotlin
+"https://media.forgecdn.net/files/3330/753/fabric-language-kotlin-1.6.1%2Bkotlin.1.5.10.jar",
+#geckolib
+"https://media.forgecdn.net/files/3343/383/geckolib-fabric-1.16.5-3.0.40.jar"
 ]
 
 minecraft_version = "1.16.5"
@@ -160,9 +203,25 @@ def datapack():
     except:
         print("datapack error") #error message for debug purposes
 
+def configs():
+    bupdate("setting configs") #window text
+    
+    os.chdir(mc+"/config") #look at configs folder
+    
+    #creates dungeonsmod configs
+    r = requests.get("https://raw.githubusercontent.com/billyp673/Oripack/main/config/dungeonsmod.json") #gets configs
+    open("dungeonsmod.json", 'wb').write(r.content) #writes configs
+    
+    #creates betterend config folder
+    os.mkdir(mc+"/config/betterend")
+    os.chdir(mc+"/config/betterend")
+
+    #creates betterend configs
+    bec = ["blocks","items","recipes"] #declare better end configs
+    for i in bec: #loop so i dont have to write this for each config
+        r = requests.get("https://raw.githubusercontent.com/billyp673/Oripack/main/config/betterend/"+i+".json") #gets configs
+        open(i+".json", 'wb').write(r.content) #writes configs
         
-
-
 #-------------
 #-window code-
 #-------------
@@ -204,18 +263,24 @@ while True:
                 if ramamount <= max_ram and ramamount > 0: #checks if ram amount is valid
                     fabric(str(ramamount))
                 else:
-                    int("notanint") #force an exception
+                    int("notanint") #force an exception (should have prolly used assert lmao)
             except:
                 fabric("2") #defaults to 2gb of ram on an exception
             
             #installs datapack
             datapack()
-            #final error (datapack error) handling
+            #error (datapack error) handling
             if datavalidate == True:
-                bupdate("Oripack is now installed.") #completion message
+                try:
+                    configs()
+                    bupdate("Oripack is now installed.") #completion message
+                except:
+                    bupdate("You need to have launched Minecraft atleast once!") #error message                    
             else:
                 window["logo"].update(data=errorlogo) #makes logo blue
                 bupdate("There was an error installing the datapack.") #error message
+
+
 
         #error handling
         elif modsvalidate == False:
