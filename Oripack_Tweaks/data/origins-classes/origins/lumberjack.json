@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins-classes:tree_felling"
+  ],
+  "icon": "minecraft:iron_axe",
+  "order": 4,
+  "impact": 0,
+"name":"Barbarian",
+"description":"Barbarians are known for being fierce with their axes, but the smart ones still know how to use them as intended."
+,"loading_priority":382476}

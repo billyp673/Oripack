@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "toomanyorigins:overheat",
+    "toomanyorigins:conductor",
+    "toomanyorigins:sneaking_steps",
+    "toomanyorigins:blast_resistance",
+    "toomanyorigins:ailurophobia"
+  ],
+  "icon": "minecraft:gunpowder",
+  "description": "This decendant of the common creeper has learnt to control their explosions as to not harm their environment and instead use them to escape predators.",
+  "order": 5,
+  "impact": 1
+,"loading_priority":382476}

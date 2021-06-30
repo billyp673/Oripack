@@ -1,0 +1,15 @@
+{
+  "loading_priority": 1,
+	"powers": [
+"oripack:death",
+    "toomanyorigins:conductor",
+		"cursedorigins:ailurophobia",
+		"cursedorigins:cant_sprint"
+	],
+	"icon": "minecraft:creeper_head",
+	"order": 69,
+	"impact": 3,
+	"unchoosable": false,
+"name":"Creeper-Kin",
+"description":"A creature of pure spite; the Creeper-Kin will always get its revenge, exploding on death just to get a chance of maiming its assailant."
+,"loading_priority":382476}

@@ -1,0 +1,27 @@
+{
+  "type": "origins:prevent_item_use",
+  "name":"Honey Hunter",
+  "description":"You can only eat honey.",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:honey_bottle"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "origins:exhaust",
+  "interval": 6,
+  "exhaustion": 1,
+  "condition": {
+	"type": "origins:exposed_to_sky",
+	"inverted": true
+  },
+  "name": "Desire for Freedom",
+  "description": "As you have grown accustomed to the air, you always want to be able to see the sky."
+}

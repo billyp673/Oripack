@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "oripack-classes:cleric"
+  ],
+  "icon": "minecraft:nether_star",
+  "order": 5,
+  "impact": 0,
+"name":"Cleric",
+"description":"Following the rightous way of Notch, the cleric has the profound ability to turn the undead into just dead."
+,"loading_priority":382476}

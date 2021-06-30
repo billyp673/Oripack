@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_taken",
+  "description": "You are resistant to all forms of explosive damage.",
+  "name": "Blast Resistant",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "explosion"
+  },
+  "modifier": {
+    "value": -0.5,
+    "operation": "multiply_total"
+  },"loading_priority":382476
+}

@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "slimeorigin:bouncy",
+    "slimeorigin:no_fall_damage_dummy",
+    "slimeorigin:better_jump",
+    "slimeorigin:better_jump_dummy",
+    "slimeorigin:fragmentation",
+    "slimeorigin:fragmentation_dummy",
+    "slimeorigin:slime_skin",
+    "slimeorigin:melting",
+    "oripack:soluble"
+
+  ],
+  "icon": "minecraft:slime_block",
+  "order": 100,
+  "impact": 2,
+  "name": "Slimecician",
+  "description": "Part Human, Part Slime. Very unpleasant to touch."
+,"loading_priority":382476}

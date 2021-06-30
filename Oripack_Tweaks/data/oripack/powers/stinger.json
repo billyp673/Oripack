@@ -1,0 +1,17 @@
+{
+"type":"origins:self_action_on_hit",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "player"},
+"description":"When attacking enemies with a melee attack, you get poisoned.",
+"name":"Stuck Stinger",
+  "cooldown": 0,
+"entity_action": {
+"type": "origins:apply_effect",
+"effect": {
+"effect": "minecraft:poison",
+"amplifier": 1,
+"duration": 30
+}
+}
+}

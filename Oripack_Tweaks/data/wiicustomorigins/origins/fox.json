@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"wiicustomorigins:energetic",
+		"wiicustomorigins:pounce",
+		"wiicustomorigins:big_brother",
+		"wiicustomorigins:bite_sized",
+		"wiicustomorigins:sly_fox",
+		"wiicustomorigins:fox",
+		"origins:fall_immunity",
+    "origins:more_exhaustion"
+	],
+	"icon": "minecraft:barrel",
+	"order": 9,
+	"impact": 2,
+	"name": "Foxling",
+	"description": "Like brothers to the Slifix, Foxlings love to stow away items for later use."
+,"loading_priority":382476}

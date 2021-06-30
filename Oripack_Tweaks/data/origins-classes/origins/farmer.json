@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "oripack-classes:bard",    "oripack-classes:bard2"
+  ],
+  "icon": "minecraft:jukebox",
+  "order": 1,
+  "impact": 0,
+"name":"Bard",
+"description":"Mostly master musicians, bards are the life of the party and an inspiration to all!"
+,"loading_priority":382476}

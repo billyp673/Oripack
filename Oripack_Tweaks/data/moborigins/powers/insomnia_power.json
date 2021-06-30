@@ -1,0 +1,17 @@
+{
+  "type": "origins:conditioned_attribute",
+"name":"Insomnia",
+"description":"Lacking in sleep allows you to move faster.",
+  "modifier": {
+    "attribute": "generic.movement_speed",
+    "operation": "addition",
+    "value": 2,
+    "name": "true phantom bonus"
+  },
+  "condition": {
+    "type":"moborigins:time_since_rest",
+    "comparison": ">",
+    "compare_to": 72000.0
+
+  }
+,"loading_priority":382476}

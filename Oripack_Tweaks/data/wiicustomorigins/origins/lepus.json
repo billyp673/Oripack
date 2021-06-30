@@ -1,0 +1,17 @@
+{
+    "unchoosable": false,
+    "name": "Lepus",
+    "icon": "minecraft:rabbit_hide",
+    "powers": [
+        "wiicustomorigins:energetic",
+        "origins:vegetarian",
+        "wiicustomorigins:luck_effect",
+        "origins:fragile",
+        "wiicustomorigins:hop",
+	"origins:more_exhaustion"
+    ],
+    "description": "An evolution of common rabbits. They're a race centered around exploration and discovery.",
+"loading_priority":382476,
+    "order": 1,
+    "impact": 1
+}

@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"toomanyorigins:wither_toxins",
+		"origins:nether_spawn",
+		"toomanyorigins:undead_resistance",
+		"toomanyorigins:wither_immunity",
+		"oripack:sink",
+		"oripack:withered_bad",
+		"origins:conduit_power_on_land"
+	],
+	"icon": "minecraft:wither_rose",
+	"order": 2,
+	"impact": 2
+,"loading_priority":382476}

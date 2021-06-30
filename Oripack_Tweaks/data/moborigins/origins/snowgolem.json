@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "oripack:soluble",
+    "moborigins:heat_weakness",
+    "moborigins:stronger_snowballs",
+    "moborigins:snow_trail",
+    "moborigins:frigid_strength"
+  ],
+  "icon": "minecraft:snowball",
+  "order": 4,
+  "impact": 2,
+"name":"Cryothian",
+"description":"Golems made from ice and snow; Cryothians are weak to anything that may cause them to melt."
+,"loading_priority":382476}

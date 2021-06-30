@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "description":"Your skin provides natural protection, but you are too heavy to wear heavy armor.",
+  "modifier": {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.armor",
+    "value": 8.0,
+    "operation": "addition"
+  }
+,"loading_priority":382476}

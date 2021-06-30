@@ -1,0 +1,29 @@
+{
+    "type": "origins:action_over_time",
+"name":"Phantomize",
+"description":"You can phantomize, becoming both stronger and faster.",
+    "entity_action": {
+  "type": "origins:apply_effect",
+  "effects": [{
+    "effect": "minecraft:speed",
+    "duration": 8,
+    "amplifier": 1,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+  },{
+    "effect": "minecraft:strength",
+    "duration": 8,
+    "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+  }]
+    },
+    "interval": 5
+,
+  "condition": {
+    "type": "origins:power_active",
+    "power": "origins:phantomize"
+  }
+}

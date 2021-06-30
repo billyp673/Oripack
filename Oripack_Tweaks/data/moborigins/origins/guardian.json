@@ -1,0 +1,17 @@
+{
+  "powers": [
+		"origins:water_breathing",
+		"origins:aqua_affinity",
+		"origins:aquatic",
+		"origins:conduit_power_on_land",
+		"origins:air_from_potions",
+		"moborigins:guardian_spikes",
+		"oripack:spines",
+		"extraorigins:flammable"
+  ],
+  "icon": "minecraft:pufferfish",
+  "order": 6,
+  "impact": 3,
+"name":"Spineling",
+"description":"These spined creatures diverged from merlings a long time ago. They are less adept at ocean travel, having instead developed defensive capabilities."
+,"loading_priority":382476}

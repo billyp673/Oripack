@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "description":"Your skin provides natural protection",
+"name":"Sturdy Shell",
+  "modifier": {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.armor",
+    "value": 8.0,
+    "operation": "addition"
+  }
+,"loading_priority":382476}

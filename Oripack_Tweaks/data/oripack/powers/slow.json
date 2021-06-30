@@ -1,0 +1,19 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name":"Lava Legs",
+"description":"Having lived in lava all your life, you are not used to walking on land.",
+  "modifier": {
+"attribute": "minecraft:generic.movement_speed",
+"operation":"multiply_total",
+"value":-0.4  
+},
+   "tick_rate": 2,
+    "condition":  
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:lava",
+        "comparison": ">",
+        "compare_to": 0,
+        "inverted": true
+      }
+  }

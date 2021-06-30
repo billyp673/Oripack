@@ -1,0 +1,21 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "description": "Melee attacks from you deal massive damage, you are a literal glass cannon!",
+  "modifier": {
+    "operation": "addition",
+    "value": 60
+  },
+"damage_condition": {
+  "type": "origins:and",
+  "conditions": [
+    {
+  "type": "origins:projectile",
+  "inverted": true
+    },
+    {      
+"type":"name",
+"name":"player"
+    }
+  ]
+}
+,"loading_priority":382476}

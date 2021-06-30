@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:no_projectile_divergence",
+    "origins-classes:less_bow_slowdown"
+  ],
+  "icon": "minecraft:bow",
+  "order": 11,
+  "impact": 0,
+"name":"Ranger",
+"description":"Having used a bow most of their lives, rangers rarely miss."
+,"loading_priority":382476}

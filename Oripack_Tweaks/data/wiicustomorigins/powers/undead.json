@@ -1,0 +1,6 @@
+{
+  "type": "origins:entity_group",
+  "group": "undead",
+  "name": "Undead",
+  "description": "You have the strengths and weaknesses of an undead mob."
+,"loading_priority":382476}

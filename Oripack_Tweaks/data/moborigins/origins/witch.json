@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "moborigins:better_potions",
+    "moborigins:potion_action",
+    "moborigins:witch_particles",
+    "moborigins:pillager_aligned",
+    "moborigins:illager"
+  ],
+  "icon": "minecraft:brewing_stand",
+  "order": 4,
+  "impact": 2,
+  "name":"Alchemier",
+  "description":"Cruel and cackling, the Alchemier are masters of brewing, and are great with magic."
+,"loading_priority":382476}

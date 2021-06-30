@@ -1,0 +1,28 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Water Legs",
+  "description": "Having lived in water all your life, you are not used to walking on land. Conduits may reverse this.",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "multiply_total",
+    "value": -0.4
+  },
+  "tick_rate": 2,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:status_effect",
+        "effect": "minecraft:conduit_power",
+        "inverted":true
+      },
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0,
+        "inverted": true
+      }
+    ]
+  }
+}

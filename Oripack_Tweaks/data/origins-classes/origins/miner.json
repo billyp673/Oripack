@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "oripack-classes:monk",    "oripack-classes:monk2"
+  ],
+  "icon": "minecraft:stick",
+  "order": 3,
+  "impact": 0,
+"name":"Monk",
+"description":"Trained in many forms of martial arts, a monk's very hands are considered weapons by most."
+,"loading_priority":382476}

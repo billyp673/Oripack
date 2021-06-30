@@ -1,0 +1,14 @@
+{
+    "type": "origins:modify_damage_taken",
+"name":"Sensitive Skin",
+"description":"You take more damage when suffocating in walls.",
+    "damage_condition": {
+        "type": "origins:name",
+"name":"inWall"
+},
+    "modifier": {
+        "name": "Weak to cursed items",
+        "operation": "addition",
+        "value": 2.5
+    }
+}

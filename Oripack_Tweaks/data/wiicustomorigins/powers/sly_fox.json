@@ -1,0 +1,8 @@
+{
+  "type": "origins:inventory",
+  "name": "Sly Fox",
+  "drop_on_death": true,
+  "key": "secondary",
+  "sound": "minecraft:entity.fox.spit",
+  "description": "You can store up to 9  items in your mouth with your secondary keybind."
+,"loading_priority":382476}

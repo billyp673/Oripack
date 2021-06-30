@@ -1,0 +1,20 @@
+{
+  "powers": [
+    "oripack:song",
+    "moborigins:guardian_ally",
+    "daemonic:fae",
+    "oripack:slowwa",
+    "origins:aquatic",
+    "origins:water_breathing",
+    "origins:like_water",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "oripack:songs"
+  ],
+  "unchoosable": false,
+  "icon": "minecraft:tropical_fish",
+  "order": 6,
+  "impact": 3,
+  "name":"Siren",
+  "description":"The jewels of the sea; Sirens are aggresive creatures, stunning their prey with their beautiful voices before ripping them to shreds."
+,"loading_priority":382476}

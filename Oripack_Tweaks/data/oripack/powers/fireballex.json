@@ -1,0 +1,12 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+  "type": "origins:exhaust",
+  "amount": 6
+    },
+    "cooldown": 50,
+    "hud_render": {
+        "should_render": false
+    },
+"hidden":true
+}

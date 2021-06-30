@@ -1,0 +1,19 @@
+{
+  "type": "origins:prevent_item_use",
+"hidden":"true",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "cursedorigins:minotaur_edible"
+        },
+        "inverted": true
+      },
+      {
+        "type": "origins:food"
+      }
+    ]
+  }
+,"loading_priority":382476}

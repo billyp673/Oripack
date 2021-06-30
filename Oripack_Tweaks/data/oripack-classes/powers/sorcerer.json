@@ -1,0 +1,23 @@
+{
+  "type": "origins:modify_damage_taken",
+  "description": "You take less damage from magic attacks.",
+  "name": "Magic Resistance",
+    "modifier": {
+        "name": "magic resistance",
+        "operation": "multiply_total",
+        "value": -0.25
+    },
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "indirectMagic"
+      },
+      {
+        "type": "origins:name",
+        "name": "magic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "origins:elytra",
+    "moborigins:insomnia_power",
+    "origins:burn_in_daylight",
+"origins:more_kinetic_damage",
+"wiicustomorigins:undead",
+"deepling:skin_of_shadows",
+"daemonic:fae"
+  ],
+  "icon": "minecraft:phantom_membrane",
+  "order": 4,
+  "impact": 1,
+"name":"Lunarian",
+"description":"Lunarians are a secretive bunch, spending their time gliding to keep themselves close to the moon.",
+	"unchoosable": false
+,"loading_priority":382476}

@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"salamander:full_fire_immunity",
+		"salamander:lava_swimming",
+		"salamander:lava_vision",
+		"salamander:speed_in_lava",
+		"oripack:slow",
+		"origins:water_vulnerability",
+		"origins:nether_spawn",
+		"origins:flame_particles",
+		"origins:damage_from_snowballs"
+	],
+	"icon": "minecraft:lava_bucket",
+	"order": 1,
+	"impact": 3,
+	"name": "Magmatican",
+	"description": "Similar to a Blazeborn, you are born in the Nether and fire and lava are no enemy to you."
+}

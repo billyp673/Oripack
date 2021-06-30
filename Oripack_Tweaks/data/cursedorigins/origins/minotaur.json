@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"cursedorigins:mow_hay",
+		"cursedorigins:axe_proficiency",
+		"cursedorigins:status_immunity",
+		"cursedorigins:delicious_dairy",
+		"cursedorigins:cake_is_a_lie",
+		"cursedorigins:inventory_eat_grass",
+"origins:more_exhaustion"
+	],
+	"icon": "minecraft:milk_bucket",
+	"order": 20,
+	"impact": 3,
+"description":"Half Human, half Cow; the Minotaur are a mighty race of axe wielders that can withstand any poison."
+,"loading_priority":382476}

@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"origins:fire_immunity",
+		"origins:nether_spawn",
+		"origins:water_vulnerability",
+		"origins:flame_particles",
+		"origins:damage_from_snowballs",
+		"origins:damage_from_potions",
+"oripack:fireball",
+"oripack:fireballex"
+	],
+	"icon": {
+		"item": "minecraft:blaze_powder"
+	},
+	"order": 1,
+	"impact": 2
+,"loading_priority":382476}

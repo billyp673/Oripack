@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+"name":"Blessed Armor",
+"description":"You are better at defending yourself.",
+  "modifier": {
+    "name": "paladin health bonus",
+    "attribute": "minecraft:generic.armor",
+    "value": 3.0,
+    "operation": "addition"
+  }
+}

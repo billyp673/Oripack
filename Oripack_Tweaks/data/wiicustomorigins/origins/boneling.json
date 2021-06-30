@@ -1,0 +1,16 @@
+{
+    "unchoosable": false,
+    "name": "Boneling",
+    "icon": "minecraft:bone",
+    "powers": [
+        "wiicustomorigins:boney",
+        "wiicustomorigins:undead",
+        "oripack:arrow",
+        "oripack:sink",
+	"origins:conduit_power_on_land"
+    ],
+    "description": "A cross breed of the skeleton and the human. A species geared towards combat and domination.",
+    "loading_priority": 0,
+    "order": 1,
+    "impact": 3
+,"loading_priority":382476}

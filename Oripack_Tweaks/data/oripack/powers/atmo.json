@@ -1,0 +1,23 @@
+{
+"type": "origins:damage_over_time",
+  "name":"Altitude Sickness",
+"description":"Your body can't sustain itself at altitudes above y-level 86",
+"interval": 10,
+"damage": 1,
+    "condition": {
+  "type": "origins:and","conditions":[  
+      {
+        "type": "origins:in_block",
+  "block_condition": {
+    "type": "origins:height",
+    "comparison": ">",
+    "compare_to": 86
+  }
+      },
+{
+"type":"origins:dimension",
+"dimension":"minecraft:the_nether",
+"inverted":true
+}
+]}
+  }

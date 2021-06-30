@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"origins:phantomize",
+		"oripack:phantomizeboost",
+		"origins:translucent",
+		"origins:invisibility",
+		"origins:burn_in_daylight",
+		"origins:hunger_over_time",
+		"origins:fragile",
+"daemonic:fae"
+	],
+	"icon": {
+		"item": "minecraft:skeleton_skull"
+	},
+	"order": 2,
+	"impact": 3,
+"name":"Wraith"
+,"loading_priority":382476}

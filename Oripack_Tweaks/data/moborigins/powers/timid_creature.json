@@ -1,0 +1,18 @@
+{
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "generic.movement_speed",
+    "operation": "addition",
+    "value": 0.1,
+    "name": "fox timid creature"
+  },
+  "condition": {
+    "type": "moborigins:nearby_entities",
+    "entity_type": "minecraft:player",
+    "player_box_multiplier": 3.0,
+    "comparison": ">=",
+    "compare_to": 2
+  },
+  "description":"You become weaker and faster when around 2 or more other players.",
+  "name":"Timid Escape"
+,"loading_priority":382476}

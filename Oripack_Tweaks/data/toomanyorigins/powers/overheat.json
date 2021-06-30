@@ -1,0 +1,19 @@
+{
+  "type": "toomanyorigins:rocket_jump",
+  "description": "You can ignite the gunpowder in your body, causing you to rocket jump!",
+  "cooldown": 10,
+  "hud_render": {
+    "should_render": false,
+    "sprite_location": "toomanyorigins:textures/gui/tmo_resource_bar.png",
+    "bar_index": 2
+  },
+  "damage_source": {
+    "name": "overheat",
+    "bypasses_armor": "true",
+    "fire": "true",
+    "unblockable": "true"
+  },
+  "damage_amount": 3,
+  "should_use_charged": true,
+  "speed": 1.0
+,"loading_priority":382476}

@@ -1,0 +1,73 @@
+{
+  "type": "origins:multiple",
+  "noswim": {
+  "type": "origins:ignore_water",
+    "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {      
+        "type": "origins:enchantment",
+        "enchantment": "minecraft:depth_strider",
+        "calculation": "sum",
+        "comparison": ">",
+        "compare_to": 0,
+        "inverted": true
+      },
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0
+      }
+]
+  }},
+  "slowfall": {
+  "type": "origins:action_over_time",
+    "interval": 1,
+  "entity_action": {
+  "type": "origins:apply_effect",
+  "effect": {
+    "effect": "minecraft:slow_falling",
+    "duration": 4,
+    "amplifier": 9,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+  }
+  },
+        "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {      
+        "type": "origins:enchantment",
+        "enchantment": "minecraft:depth_strider",
+        "calculation": "sum",
+        "comparison": ">",
+        "compare_to": 0,
+        "inverted": true
+      }, 
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">=",
+        "compare_to": 0.9
+      }
+    ]
+   }},
+"con":{
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:conduit_power"
+    ],
+    "condition":{
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 1,
+        "inverted":true
+      }
+},
+
+  "name": "Sinking Shell",
+  "description": "You sink in the water unless wearing depth strider boots."
+}

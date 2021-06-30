@@ -1,0 +1,15 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "moborigins:bouncy",
+    "moborigins:slime_color",
+    "moborigins:split",
+    "slimeorigin:melting",
+    "slimeorigin:no_fall_damage_dummy"
+  ],
+  "icon": "minecraft:slime_ball",
+  "order": 2,
+  "impact": 2,
+  "name": "Slime-Kin",
+  "description": "Also known as the Slimecician Half-Breed, these creatures bodies are highly unstable, pieces of which gain sentience when separated from their host."
+,"loading_priority":382476}

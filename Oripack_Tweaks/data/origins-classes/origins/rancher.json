@@ -1,0 +1,10 @@
+{
+  "powers": [
+"oripack-classes:warlock",    "daemonic:soul_leech_dummy_2"
+  ],
+  "icon": "minecraft:wither_skeleton_skull",
+  "order": 2,
+  "impact": 0,
+"name":"Warlock",
+"description":"Warlocks have made a pact with a fiendish patron, having exchanged magic vision for something of significant value."
+,"loading_priority":382476}

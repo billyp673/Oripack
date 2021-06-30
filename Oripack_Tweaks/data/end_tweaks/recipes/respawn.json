@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "131",
+    "131",
+    "222"
+  ],
+  "key": {
+    "1": {
+      "item": "betterend:aurora_crystal"
+    },
+    "2": {
+      "item": "betterend:amber_block"
+    },
+    "3": {
+      "item": "betterend:crystal_shards"
+    }
+  },
+  "result": {
+    "item": "betterend:respawn_obelisk"
+  }
+}

@@ -1,0 +1,6 @@
+{
+"type": "origins:simple",
+  "name": "Spider Sense",
+"description": "Non-arthropods stuck in cobwebs will be sensed by you.",
+"hidden": "false"
+}

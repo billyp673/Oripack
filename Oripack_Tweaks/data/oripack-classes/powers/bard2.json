@@ -1,0 +1,30 @@
+{
+    "type": "origins:action_over_time",
+"name":"Bardic Inspiration",
+"description":"You and everyone around you gain luck when you play music.",
+"entity_action": {
+  "type": "origins:and",
+  "actions": [
+    {
+  "type": "origins:execute_command",
+  "command": "scoreboard players reset @s discuse",
+  "permission_level": 4
+    },
+    {    
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:luck",
+        "amplifier": 0,
+        "duration": 600
+      }
+    }
+  ]
+},
+    "interval": 20,
+    "condition": {
+    "type": "origins:scoreboard",
+    "objective": "discuse",
+    "comparison": ">",
+    "compare_to": 0
+    }
+}

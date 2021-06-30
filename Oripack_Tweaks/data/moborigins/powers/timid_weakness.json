@@ -1,0 +1,22 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effects": [
+        {
+            "effect": "minecraft:weakness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ],
+  "condition": {
+    "type": "moborigins:nearby_entities",
+    "entity_type": "minecraft:player",
+    "player_box_multiplier": 3.0,
+    "comparison": ">=",
+    "compare_to": 2
+  },
+  "hidden":true
+,"loading_priority":382476}

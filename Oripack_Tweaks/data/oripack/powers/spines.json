@@ -1,0 +1,27 @@
+{
+  "type": "origins:target_action_on_hit",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "player"},
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:wither",
+      "amplifier": 2,
+      "duration": 60
+    }
+  },
+  "cooldown": 100,
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:air"
+      }
+    }
+  },
+"name":"Spines",
+"description":"Inflicts wither apon your foes."
+}

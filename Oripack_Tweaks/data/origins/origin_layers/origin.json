@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "origins": [
+    "salamander:salamander",
+    "aerum:aerum",
+    "avian_subspecies:ra",
+    "deepling:deepling",
+    "moborigins:true_phantom",
+"oripack:crab"
+  ]
+}

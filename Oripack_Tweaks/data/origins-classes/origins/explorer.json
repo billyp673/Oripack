@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "oripack-classes:sorcerer"
+  ],
+  "icon": "minecraft:end_crystal",
+  "order": 9,
+  "impact": 0,
+"name":"Sorcerer","description":"Being innately good at magic, sorcerers know how to protect themselves from it."
+,"loading_priority":382476}

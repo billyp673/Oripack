@@ -1,0 +1,15 @@
+{
+    "type": "origins:active_self",
+"name":"Infinite Infinity",
+"description":"You may enchant bows with infinity at will.",
+    "entity_action": {
+  "type": "origins:execute_command",
+  "command": "enchant @s minecraft:infinity",
+  "permission_level": 4
+    },
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 0
+    }
+}

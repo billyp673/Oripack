@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:tamed_animal_boost",
+    "origins-classes:tamed_potion_diffusal"
+  ],
+  "icon": "minecraft:bone",
+  "order": 13,
+  "impact": 0,
+"name":"Druid",
+"description":"Druids are solitary people who prefer the company of animals."
+,"loading_priority":382476}

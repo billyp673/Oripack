@@ -1,0 +1,18 @@
+{
+	"loading_priority": 100,
+	"powers": [
+		"oripack:sink2",
+		"origins:conduit_power_on_land",
+		"origins:air_from_potions",
+		"origins:water_vision",
+		"origins:water_breathing",
+		"origins:natural_armor2",
+		"origins:no_shield",
+		"origins:more_exhaustion"
+	],
+	"icon": "minecraft:brick",
+	"order": 420,
+	"impact": 3,
+	"name": "Crustacean",
+	"description": "As sturdy as steel; these heavy creatures can be found scurrying along the bottom of the ocean."
+}

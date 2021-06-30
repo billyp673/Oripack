@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"origins:shulker_inventory",
+		"origins:natural_armor",
+		"origins:strong_arms",
+		"origins:strong_arms_break_speed",
+		"origins:no_shield",
+		"origins:more_exhaustion",
+		"origins:light_armor2"
+	],
+	"icon": {
+		"item": "minecraft:shulker_shell"
+	},
+	"order": 4,
+	"impact": 1
+,"loading_priority":382476}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:prevent_sleep",
+  "message": "Can't sleep",
+  "name":"Insomniac",
+  "description":"You can't sleep."
+,"loading_priority":382476}

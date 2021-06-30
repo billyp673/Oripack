@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:barrier",
+    "minecraft:bedrock",
+    "minecraft:crying_obsidian",
+    "minecraft:obsidian",
+"blockus:obsidian_bricks",
+"blockus:obsidian_bricks_stairs",
+"blockus:obsidian_bricks_slab",
+"blockus:obsidian_bricks_wall",
+"blockus:cracked_obsidian_bricks",
+"blockus:obsidian_pillar",
+"blockus:obsidian_circle_pavement",
+"blockus:obsidian_reinforced_door",
+"blockus:obsidian_reinforced_trapdoor",
+"blockus:glowing_obsidian",
+"blockus:legacy_crying_obsidian",
+"blockus:legacy_glowing_obsidian"
+  ],"loading_priority":382478
+}

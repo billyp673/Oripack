@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "daemonic:fragile",
+    "daemonic:burned_tears",
+    "daemonic:crying_leech",
+    "daemonic:lashing_out",
+    "daemonic:drying_of_tears",
+    "daemonic:spreading_anguish",
+    "daemonic:spreading_anguish_dummy",
+    "daemonic:dripping_tears",
+    "origins:extra_reach",
+    "oripack:weeping_bad",
+    "origins:water_vulnerability",
+    "daemonic:numb"
+  ],
+  "icon": "minecraft:crying_obsidian",
+  "order": 4,
+  "impact": 2,
+  "description":"A body wronged, animated by a demon and motivated by vengeance.",
+  "name":"Shinigami"
+,"loading_priority":382476}

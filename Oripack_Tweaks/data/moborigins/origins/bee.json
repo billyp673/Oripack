@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "oripack:stinger",
+    "moborigins:flower_power",
+    "moborigins:queen_bee",
+    "moborigins:small_bug",
+    "moborigins:bee_wings",
+    "oripack:honeyboy"
+  ],
+  "icon": "minecraft:honeycomb",
+  "order": 4,
+  "impact": 2,
+  "name":"Beeborne"
+,"loading_priority":382476}

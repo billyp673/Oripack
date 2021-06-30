@@ -1,0 +1,18 @@
+{
+  "type": "origins:conditioned_attribute",
+    "description": "You are slower on land, but faster on lava.",
+
+  "modifier": {
+    "attribute": "generic.movement_speed",
+    "operation": "addition",
+    "value": 0.06,
+    "name": "strider lava bonus"
+  },
+  "condition": {
+    "type":"origins:on_block",
+    "block_condition":{
+      "type":"origins:block",
+      "block":"minecraft:lava"
+    }
+  }
+,"loading_priority":382476}

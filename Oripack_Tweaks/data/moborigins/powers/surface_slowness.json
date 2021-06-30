@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+    "name": "strider land penalty",
+  "hidden": true,
+  "modifier": {
+    "attribute": "generic.movement_speed",
+    "operation": "multiply_total",
+    "value": -0.45,
+    "name": "strider land penalty"
+  }
+,"loading_priority":382476}

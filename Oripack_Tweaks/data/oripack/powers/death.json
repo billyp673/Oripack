@@ -1,0 +1,52 @@
+{  "type": "origins:multiple",
+"name":"Unstable",
+"description":"You explode on death.",
+"exp":{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "summon creeper ~ ~ ~ {Silent:1b,Invulnerable:1b,Fuse:0,ignited:1b}",
+    "permission_level": 4
+  },
+  "interval": 20,
+"condition": {
+  "type": "origins:and",
+  "conditions": [
+{
+    "type": "origins:health",
+    "comparison": "==",
+    "compare_to": 0
+    },
+{
+    "type": "origins:status_effect",
+    "effect": "toomanyorigins:charged",
+"inverted":true
+    }
+
+  ]
+}
+},
+"cha":{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "summon creeper ~ ~ ~ {Silent:1b,Invulnerable:1b,powered:1b,Fuse:0,ignited:1b}",
+    "permission_level": 4
+  },
+  "interval": 20,
+"condition": {
+  "type": "origins:and",
+  "conditions": [
+{
+    "type": "origins:health",
+    "comparison": "==",
+    "compare_to": 0
+    },
+{
+    "type": "origins:status_effect",
+    "effect": "toomanyorigins:charged"
+    }
+
+  ]
+}
+}}

@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins:water_vulnerability",
+    "oripack:ethereal",
+    "oripack:burntest",
+    "daemonic:animated",
+    "daemonic:undead",
+    "daemonic:soul_leech_dummy_2",
+    "daemonic:fae",
+    "oripack:cooldown"
+  ],
+  "icon": "minecraft:fire_charge",
+  "order": 4,
+  "impact": 2,
+  "description": "Human and demon sharing a body, not quite spirit and not quite man."
+,"loading_priority":382476}

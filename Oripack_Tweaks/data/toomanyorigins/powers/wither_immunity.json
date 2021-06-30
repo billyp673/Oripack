@@ -1,0 +1,7 @@
+{
+  "type": "origins:effect_immunity",
+  "hidden": true,
+  "effects": [
+    "minecraft:wither"
+  ]
+,"loading_priority":382476}

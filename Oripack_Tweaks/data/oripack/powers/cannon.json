@@ -1,0 +1,52 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "description": "Melee attacks from you deal massive damage, you are a literal glass cannon!",
+  "name":"Cannon",
+  "modifier": {
+    "operation": "addition",
+    "value": 70
+  },
+  "damage_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "player"
+      },
+      {
+        "type": "origins:projectile",
+        "inverted": true
+      },
+      {
+        "type": "origins:name",
+        "name": "indirectMagic",
+        "inverted": true
+      },
+      {
+        "type": "origins:name",
+        "name": "fireworks",
+        "inverted": true
+      },
+      {
+        "type": "origins:name",
+        "name": "thrown",
+        "inverted": true
+      },
+      {
+        "type": "origins:name",
+        "name": "explosion.player",
+        "inverted": true
+      },
+      {
+        "type": "origins:name",
+        "name": "magic",
+        "inverted": true
+      },
+      {
+        "type": "origins:name",
+        "name": "generic",
+        "inverted": true
+      }
+    ]
+  }
+}

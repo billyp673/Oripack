@@ -1,0 +1,15 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "name": "Stealth Nerf",
+        "operation": "multiply_total",
+        "value": -0.3333
+    },
+    
+"condition":{
+"type":"origins:status_effect",
+"effect":"origins-classes:stealth"
+},
+"hidden":true
+
+}

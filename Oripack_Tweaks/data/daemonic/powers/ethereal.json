@@ -1,0 +1,11 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:trigger_cooldown",
+        "power": "oripack:cooldown"
+    },
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": false
+    }
+,"loading_priority":382476}

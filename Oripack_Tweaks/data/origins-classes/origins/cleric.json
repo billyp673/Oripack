@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins-classes:better_enchanting"
+  ],
+  "icon": "minecraft:enchanted_book",
+  "order": 7,
+  "impact": 0,
+"name":"Wizard",
+"description":"Wizards have learnt how to channel the magic of the world and use it to their advantage."
+,"loading_priority":382476}

@@ -1,0 +1,11 @@
+{
+  "powers": [
+
+    "origins-classes:efficient_repairs"
+  ],
+  "icon": "minecraft:iron_ingot",
+  "order": 6,
+  "impact": 0,
+"name":"Artificer",
+"description":"Having knowlegde in repairs, artificers waste no resources in the workshop."
+,"loading_priority":382476}

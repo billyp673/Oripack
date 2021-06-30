@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "moborigins:timid_creature",
+    "moborigins:sly",
+    "origins:more_exhaustion",
+    "moborigins:careful_gatherer",
+    "moborigins:item_collector",
+    "moborigins:small_fox",
+    "moborigins:timid_weakness"
+  ],
+  "icon": "minecraft:sweet_berries",
+  "order": 2,
+  "impact": 1,
+  "name": "Slifix",
+  "description": "As sly as a Foxling, The Slifix are timid creatures who enjoy running around and eating berries."
+,"loading_priority":382476}

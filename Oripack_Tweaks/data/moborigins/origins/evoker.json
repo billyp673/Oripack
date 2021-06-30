@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "moborigins:summon_fangs",
+    "moborigins:lower_totem_chance",
+    "oripack:tm"
+  ],
+  "icon": "minecraft:totem_of_undying",
+  "order": 4,
+  "impact": 2,
+  "name":"Fiend"
+,"loading_priority":382476}

@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "moborigins:wolf_body",
+    "moborigins:full_moon",
+    "moborigins:alpha_wolf",
+    "origins:carnivore"
+  ],
+  "icon": "minecraft:bone",
+  "order": 2,
+  "impact": 1,
+  "name": "Canine",
+  "description": "Strong and Fast, Canines are pack creatures that rely on their companions for survival."
+,"loading_priority":382476}

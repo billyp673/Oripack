@@ -1,0 +1,15 @@
+{
+  "type":"origins:modify_damage_taken",
+  
+  "name": "Brittle Bones",
+  "description": "You take extra damage when below half health.",
+  "condition": {
+    "type": "origins:health",
+    "comparison": "<=",
+    "compare_to": 10.0
+  },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 2
+    }
+}

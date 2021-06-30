@@ -1,0 +1,12 @@
+{
+  "type": "origins:self_action_on_hit",
+    "description":"when attacking enemies, you get poisoned.",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:poison",
+      "amplifier": 0,
+      "duration": 30
+    }
+  }
+,"loading_priority":382476}

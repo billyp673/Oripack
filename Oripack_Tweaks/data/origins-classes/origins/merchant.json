@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "oripack-classes:paladin"
+  ],
+  "icon": "minecraft:emerald",
+  "order": 8,
+  "impact": 0,
+"name":"Paladin",
+"description":"Following the path of rightousness, paladins defend themselves so that they are able to protect others."
+,"loading_priority":382476}

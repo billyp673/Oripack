@@ -1,0 +1,19 @@
+{
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+"attribute": "minecraft:generic.movement_speed",
+"operation":"multiply_total",
+"value":-0.7  
+},
+   "tick_rate": 2,
+        "condition": {
+    "type": "origins:and",
+    "condition":  
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:lava",
+        "comparison": ">",
+        "compare_to": 0,
+        "inverted": true
+      }
+  }}

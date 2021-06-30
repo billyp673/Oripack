@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"oripack:glass",
+		"oripack:cannon",
+		"cursedorigins:comedy"
+	],
+	"icon": "minecraft:glass",
+	"order": 19,
+	"impact": 3,
+	"name": "Glassian",
+	"description": "A body of glass but a heart of gold I'm sure. The Glassian are a powerful species of glass based life, however they spend their time in hiding as even stubbing their toe could spell their end."
+
+,"loading_priority":382476}

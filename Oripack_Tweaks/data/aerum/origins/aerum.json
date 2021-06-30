@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"aerum:air_swimming",
+		"aerum:no_exhaustion",
+		"origins:fall_immunity",
+		"origins:extra_reach",
+		"origins:light_armor",
+		"oripack:translucent",
+		"aerum:damage_from_no_sky",
+		"aerum:vulnerable",
+		"origins:slow_falling"
+	],
+	"icon": "minecraft:glass_pane",
+	"order": 4,
+	"impact": 3,
+	"name": "Aerum",
+	"description": "These spirit-like creatures fly through the air like no other known being, but have to be careful not to expose themselves to the dangers of the world."
+,"loading_priority":382476
+}
