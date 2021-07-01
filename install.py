@@ -67,8 +67,14 @@ modlist = [
 "https://media.forgecdn.net/files/3249/260/wiicustomorigins-1.16.5-13.jar",
 
 #--core mods--
+#simple voice chat
+"https://media.forgecdn.net/files/3362/393/voicechat-1.16.5-1.6.3.jar",
+#sbm jukebox (hoppers work with jukeboxes)
+"https://media.forgecdn.net/files/3016/951/SBM-Jukebox-1.16.1-1.0.2.jar",
+#hypnos (morpheus, sleep voting, for fabric)
+"https://media.forgecdn.net/files/3284/961/hypnos-0.1.2.jar",
 #fabric api
-"https://media.forgecdn.net/files/3174/110/fabric-api-0.29.4%2B1.16.jar",
+"https://media.forgecdn.net/files/3358/614/fabric-api-0.36.0%2B1.16.jar",
 #pehkui
 "https://media.forgecdn.net/files/3274/223/Pehkui-2.0.0%2B21w14a.jar",
 #data loader (core to the modpack i guess?)
