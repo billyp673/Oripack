@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="600" height="200" src="https://cdn.discordapp.com/attachments/750518624548159600/827335809245904926/unknown.png">
+  <img width="600" height="200" src="https://cdn.discordapp.com/attachments/678209937192779797/861753508004757534/sdfsdfdfsdsddfsdfdsdfsdfsdfffdsdfsfdfdsfddfssfdffds.png">
 </p>
 # Oripack
 The Official Oripack modpack for Minecraft <br />
