@@ -1,6 +1,6 @@
 <div align="center">
 <p>
-  <img width="600" height=auto src="https://cdn.discordapp.com/attachments/678209937192779797/861753508004757534/sdfsdfdfsdsddfsdfdsdfsdfsdfffdsdfsfdfdsfddfssfdffds.png">
+  <a href="https://github.com/billyp673/Oripack/releases"><img width="600" height=auto src="https://cdn.discordapp.com/attachments/678209937192779797/861753508004757534/sdfsdfdfsdsddfsdfdsdfsdfsdfffdsdfsfdfdsfddfssfdffds.png"></a>
 </p>
 The Official Oripack modpack for Minecraft, made by billyp673<br />
 Have you ever looked at a Modpack and thought, "I'd love to play this with my friends, but they don't know how to computer"?<br />
