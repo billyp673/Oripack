@@ -1,0 +1,12 @@
+{
+  "type": "origins:simple",
+  "name": "Bouncy","loading_priority":382476,
+  "condition": {
+    "type": "origins:enchantment",
+    "enchantment": "moborigins:ground_spikes",
+    "calculation": "sum",
+    "comparison": ">=",
+    "compare_to": 1,
+    "inverted": true
+  }
+}
