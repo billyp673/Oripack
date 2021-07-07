@@ -99,7 +99,7 @@ max_ram = int(psutil.virtual_memory().total/1028/1028/1028) #gets system ram (tr
 
 modpath = os.getenv('APPDATA')+"/.minecraft/mods"#sets variable to mods folder directory
 verpath = os.getenv('APPDATA')+"/.minecraft/versions"#sets variable to version directory
-vername = "Oripack-1.0"#sets variable to modpack name
+vername = "Oripack-1.1"#sets variable to modpack name
 oripath = verpath+"/"+vername#sets variable to modpack version directory
 mc = os.getenv('APPDATA')+"/.minecraft" #sets variable to minecraft install directory
 
@@ -175,7 +175,7 @@ def fabric(ram):
     y = json.loads(f.read())
     f.close()
     #appends new settings to old launcher profiles
-    lpjson = json.loads('{"icon" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGVSURBVHhe7dwxSgRBEEDR1cjUu5iKd/Fg3kVMPYiJmG6mCAOCzOLC4OxM//dA7GTB4FNUt+gBAAAAAAAAAAAYyNXHy+PndL6I2/unq+nIBVxP34kSQJwA4gQQJ4C4i98CWMep25YJECeAOAHECSBudgl8ez9OJ0ZnAsQJIE4AcQKIE0CcAOIEECeAOAHECSBuyKfgm+fX6fTj+HA3nf629PN7YgLECSBOAHECiNt9AN8L2+8vzmcCxAkgTgBxAojbzUvg0uVu1Je8pUyAOAHECSBOAHECiNvkLWDN59ylt4Nzf9at3kJMgDgBxAkgTgBx+SVwztzCNupTtAkQJ4A4AcQJIM4SuBJLIJskgDgBxAkgTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQKIE0Bc5v8DrGmrv/ufYwLECSBOAHECiBNA3G5uAads8c/I9sQEiBNAnADiBBC3+yVwzn8shntf9k4xAeIEECeAOAHEDbkEcj4TIE4AcQKIE0CcAOIEECeAOAHECSBOAAAAAAAAAAAAADCCw+ELoktsVBJsvRMAAAAASUVORK5CYII=","lastVersionId" : "Oripack-1.0","javaArgs" : "-Xmx'+ram+'G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M","name" : "Oripack!"}')
+    lpjson = json.loads('{"icon" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGVSURBVHhe7dwxSgRBEEDR1cjUu5iKd/Fg3kVMPYiJmG6mCAOCzOLC4OxM//dA7GTB4FNUt+gBAAAAAAAAAAAYyNXHy+PndL6I2/unq+nIBVxP34kSQJwA4gQQJ4C4i98CWMep25YJECeAOAHECSBudgl8ez9OJ0ZnAsQJIE4AcQKIE0CcAOIEECeAOAHECSBuyKfgm+fX6fTj+HA3nf629PN7YgLECSBOAHECiNt9AN8L2+8vzmcCxAkgTgBxAojbzUvg0uVu1Je8pUyAOAHECSBOAHECiNvkLWDN59ylt4Nzf9at3kJMgDgBxAkgTgBx+SVwztzCNupTtAkQJ4A4AcQJIM4SuBJLIJskgDgBxAkgTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQKIE0Bc5v8DrGmrv/ufYwLECSBOAHECiBNA3G5uAads8c/I9sQEiBNAnADiBBC3+yVwzn8shntf9k4xAeIEECeAOAHEDbkEcj4TIE4AcQKIE0CcAOIEECeAOAHECSBOAAAAAAAAAAAAADCCw+ELoktsVBJsvRMAAAAASUVORK5CYII=","lastVersionId" : "Oripack-1.1","javaArgs" : "-Xmx'+ram+'G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M","name" : "Oripack!"}')
     y["profiles"]["Billyp673WasHere"]=lpjson
 
     #reformats launcher profiles to make them minecraft readable
@@ -203,7 +203,7 @@ def datapack():
         bupdate("downloading Oripack_Tweaks.zip") #updates window text
         os.chdir(mc+"/config/datapacks") #sets directory to configs folder
         #downloads Oripack_Tweaks
-        r = requests.get("https://github.com/billyp673/Oripack/releases/download/1.0/Oripack_Tweaks.zip") 
+        r = requests.get("https://github.com/billyp673/Oripack/releases/download/1.1/Oripack_Tweaks.zip") 
         open("Oripack_Tweaks.zip", 'wb').write(r.content)
         datavalidate = True #tells the rest of the script that the datapack was installed properly
     except:
