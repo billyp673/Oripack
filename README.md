@@ -9,7 +9,7 @@ Here's an Origins modpack with 40 Origins, 13 Classes, better biomes, structures
 <br />
   <h1>Releases</h1>
 You can find the release version at:
-https://github.com/billyp673/Oripack/releases
+https://github.com/billyp673/Oripack/releases<br />
 Keep in mind that this replaces both your configs and mods folders (and only works in the default install directory).
   <h1>Credits and Sources for Skeptics</h1>
 If you don't trust a random stranger on the internet giving you executables (especially since python can cause anti-virus false positives), here's the link to the mods, configs and datapack.<br />
