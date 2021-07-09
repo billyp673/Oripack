@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "operation": "multiply_total",
+    "value": 1,
+    "name": "damage dealt modifier"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "daemonic:burned_tears",
+    "comparison": ">=",
+    "compare_to": 21
+  }
+}

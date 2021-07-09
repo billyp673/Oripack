@@ -1,5 +1,5 @@
 {
-	"loading_priority": 100,
+	"loading_priority": 101,
 	"powers": [
 		"oripack:sink2",
 		"origins:conduit_power_on_land",

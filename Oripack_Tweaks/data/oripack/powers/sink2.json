@@ -54,19 +54,6 @@
       }
     ]
    }},
-"con":{
-    "type": "origins:effect_immunity",
-    "effects": [
-        "minecraft:conduit_power"
-    ],
-    "condition":{
-        "type": "origins:fluid_height",
-        "fluid": "minecraft:water",
-        "comparison": ">",
-        "compare_to": 1,
-        "inverted":true
-      }
-},
 
   "name": "Sinking Shell",
   "description": "You sink in the water unless wearing depth strider boots."
