@@ -19,7 +19,7 @@ https://github.com/billyp673/Oripack/blob/main/Modlist.md
   <h2>Configs</h2>
 https://github.com/billyp673/Oripack/tree/main/config
   <h2>Datapack</h2>
-https://github.com/billyp673/Oripack/releases/download/1.0/Oripack_Tweaks.zip<br /><br /><br /><br />
+https://github.com/billyp673/Oripack/releases/download/1.2/Oripack_Tweaks.zip<br /><br /><br /><br />
   This modpack and datapack is licensed cc0, feel free to do what you want with it.
 </div>
 
