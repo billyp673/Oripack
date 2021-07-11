@@ -9,7 +9,8 @@
 		"origins:natural_armor2",
 		"origins:no_shield",
 		"origins:more_exhaustion",
-		"origins:aqua_affinity"
+		"origins:aqua_affinity",
+		"origins:aquatic"
 	],
 	"icon": "minecraft:brick",
 	"order": 420,

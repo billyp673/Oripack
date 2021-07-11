@@ -10,7 +10,8 @@
     "origins:extra_reach",
     "oripack:weeping_bad",
     "origins:water_vulnerability",
-    "daemonic:numb"
+    "daemonic:numb",
+        "wiicustomorigins:undead"
   ],
   "icon": "minecraft:crying_obsidian",
   "order": 4,

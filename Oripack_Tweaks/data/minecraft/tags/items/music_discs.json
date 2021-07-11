@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:creeper_drop_music_discs",
+    "cursedorigins:music_disc_creeper_rap",
+    "betterend:music_disc_endseeker",
+    "betterend:music_disc_eo_dracona",
+    "betterend:music_disc_grasping_at_stars",
+    "betterend:music_disc_strange_and_alien"
+  ]
+}

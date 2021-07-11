@@ -1,0 +1,14 @@
+{
+  "type": "origins:launch",
+  "cooldown": 600,
+  "hud_render": {
+    "bar_index": 4
+  },
+"description":"Every 30 seconds, you are able to launch yourself into the air.",
+  "sound": "minecraft:entity.parrot.fly",
+  "speed": 2,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  }
+}

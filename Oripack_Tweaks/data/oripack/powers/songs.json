@@ -3,7 +3,7 @@
   "entity_action": {
     "type": "origins:play_sound",
     "sound":"minecraft:ambient.soul_sand_valley.mood",
-    "valume":100
+    "volume":100
   },
   "cooldown": 500,
   "hud_render": {

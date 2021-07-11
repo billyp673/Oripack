@@ -6,7 +6,8 @@
 		"toomanyorigins:wither_immunity",
 		"oripack:sink",
 		"oripack:withered_bad",
-		"origins:conduit_power_on_land"
+		"origins:conduit_power_on_land",
+        "wiicustomorigins:undead"
 	],
 	"icon": "minecraft:wither_rose",
 	"order": 2,

@@ -2,7 +2,8 @@
   "powers": [
     "moborigins:summon_fangs",
     "moborigins:lower_totem_chance",
-    "oripack:tm"
+    "oripack:tm",
+    "moborigins:illager"
   ],
   "icon": "minecraft:totem_of_undying",
   "order": 4,
